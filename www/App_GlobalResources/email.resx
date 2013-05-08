@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MajestaBody" xml:space="preserve">
+    <value>Thank you for joining MAJESTA Treesponsible™ News and the movement to plant more trees. You will soon begin receiving information, rewards and savings absolutely free. 
+&lt;br /&gt;&lt;br /&gt;
+Have you received this message in error? To be removed from the Treesponsible™ News Community just &lt;a href="[[ServerURL]]/Unsubscribe.aspx?email=[[uemail]]"&gt;click here&lt;/a&gt;.
+&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="MajestaEmail" xml:space="preserve">
+    <value>TreesponsibleNews@majestapromotions.ca</value>
+  </data>
+  <data name="MajestaFooter" xml:space="preserve">
+    <value>&lt;/td&gt;
+        &lt;td bgcolor="#faddea" style="background-color:#faddea;"&gt;&amp;nbsp;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+    	&lt;td width="11" height="11" bgcolor="#faddea" style="background-color:#faddea;"&gt;&lt;img src="http://majesta.com/uploadedImages/email-images/TreesponsibleNews/majesta_email_corner_bl.jpg" alt="" width="11" height="11"&gt;&lt;/td&gt;
+        &lt;td bgcolor="#faddea" style="background-color:#faddea;"&gt;&lt;font style="font-size:5px; font-family:Arial, Helvetica, sans-serif"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+    	&lt;td width="11" height="11" bgcolor="#faddea" style="background-color:#faddea;"&gt;&lt;img src="http://majesta.com/uploadedImages/email-images/TreesponsibleNews/majesta_email_corner_br.jpg" alt="" width="11" height="11"&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+	&lt;/tbody&gt;&lt;/table&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;
+  	&lt;table cellspacing="0" cellpadding="0" border="0" width="588"&gt;&lt;tbody&gt;
+	&lt;tr&gt;
+    	&lt;td  align="left" style="padding-right:10px; font-family:Arial, Helvetica, sans-serif; font-size:11px;"&gt;This email was sent by: Irving Consumer Products&lt;br&gt;
+                100 Midland Drive, Dieppe, NB E1A 6X4, Canada&lt;/td&gt;
+    	&lt;td align="right" style="padding-right:10px; font-family:Arial, Helvetica, sans-serif"&gt;&lt;a href="http://www.facebook.com/MajestaTreesponsibleResponsarbre" target="_blank" style="color:#ee3b92; font-size:13px; font-weight:bold;"&gt;Follow us on Facebook&lt;/a&gt;&lt;/td&gt;
+        &lt;td height="24" width="24"&gt;&lt;a href="http://www.facebook.com/MajestaTreesponsibleResponsarbre" target="_blank"&gt;&lt;img height="24" width="24" src="http://majesta.com/uploadedImages/email-images/TreesponsibleNews/fb_icon.jpg" alt="" border="0"&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/body&gt;</value>
+  </data>
+  <data name="MajestaHeader" xml:space="preserve">
+    <value>&lt;body bgcolor="#fff" bottommargin="0" topmargin="0" leftmargin="0" rightmargin="0"&gt;&lt;br /&gt;
+&lt;table cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" width="600" align="center"&gt;&lt;tbody&gt;
+&lt;tr&gt;
+  &lt;td&gt;&lt;img height="150" width="600" src="http://majesta.com/uploadedImages/email-images/TreesponsibleNews/emailHeader-en.gif" alt=""&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td style="padding:10px 6px 10px 6px;"&gt;
+	&lt;table cellspacing="0" cellpadding="0" border="0" width="588" bgcolor="#faddea" style="background-color:#faddea;"&gt;&lt;tbody&gt;
+	&lt;tr&gt;
+    	&lt;td width="11" height="11" bgcolor="#faddea" style="background-color:#faddea;"&gt;&lt;img src="http://majesta.com/uploadedImages/email-images/TreesponsibleNews/majesta_email_corner_tl.jpg" alt="" width="11" height="11"&gt;&lt;/td&gt;
+        &lt;td bgcolor="#faddea" style="background-color:#faddea;"&gt;&lt;font style="font-size:5px;"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+    	&lt;td width="11" height="11" bgcolor="#faddea" style="background-color:#faddea;"&gt;&lt;img src="http://majesta.com/uploadedImages/email-images/TreesponsibleNews/majesta_email_corner_tr.jpg" alt="" width="11" height="11"&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td bgcolor="#faddea" style="background-color:#faddea;"&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;td bgcolor="#faddea" style="font-size:14px; color:#58595b; font-weight:bold; padding:8px 40px 8px 40px; line-height:24px; background-color:#faddea;"&gt;</value>
+  </data>
+  <data name="MajestaSubjectLine" xml:space="preserve">
+    <value>Welcome from MAJESTA</value>
+  </data>
+  <data name="MajestaUrl" xml:space="preserve">
+    <value>http://majestapromotions.ca/</value>
+  </data>
+  <data name="RoyaleBody" xml:space="preserve">
+    <value>&lt;p&gt;Thank you for joining Moment with ROYALE. You will soon begin receiving news, rewards and savings absolutely free. From time to time you will also receive exclusive offers from ROYALE as part of your membership!&lt;/p&gt;
+&lt;p&gt;To welcome you to our community, ROYALE wants to offer you savings on your next purchase of ROYALE. &lt;a href="http://www.gocoupons.ca/27-brand-coupons-ROYALE.html" target="_blank"&gt;Click here&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;Have you received this message in error? To be removed from the Moment with ROYALE Community, just &lt;a href="[[ServerURL]]Unsubscribe.aspx?email=[[uemail]]" title="Unsubscribe"&gt;click here&lt;/a&gt;.&lt;/p&gt;</value>
+  </data>
+  <data name="RoyaleEmail" xml:space="preserve">
+    <value>momentwithroyale@royalepromotions.ca</value>
+  </data>
+  <data name="RoyaleFooter" xml:space="preserve">
+    <value>&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;img src="http://www.royalepromotions.ca/images/email/royale_table_bottom.jpg" width="580" height="28" border="0" alt=" " style="display: block;" /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" align="center" width="560"&gt;&lt;tr&gt;&lt;td align="left" width="350" style="color: #444444; font-family: trebuchet ms, geneva, arial, helvetica, sans-serif; font-size: 8pt;"&gt;This email was sent by: &lt;span style="font-weight: bold;"&gt;Irving Consumer Products&lt;/span&gt;&lt;br /&gt;100 Midland Drive Dieppe, NB E1A 6X4, Canada&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;td align="right" width="210" valign="top"&gt;&lt;table border="0" width="" cellpadding="2" cellspacing="0"&gt;&lt;tr&gt;&lt;td style="color: #00ADF1; font-size: 16px;"&gt;Follow us on&lt;/td&gt;&lt;td width="28"&gt;&lt;a href="http://www.facebook.com/RoyaleKittensChatons" target="_blank" border="0"&gt;&lt;img src="http://www.royalepromotions.ca/images/email/royale_facebook.jpg" width="28" height="28" border="0" alt="Facebook" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td width="28"&gt;&lt;a href="http://twitter.com/#!/royalekittens" target="_blank" border="0"&gt;&lt;img src="http://www.royalepromotions.ca/images/email/royale_twitter.jpg" width="28" height="28" border="0" alt="Twitter" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;</value>
+  </data>
+  <data name="RoyaleHeader" xml:space="preserve">
+    <value>&lt;body bgcolor="#FFFFFF" style="background: #FFFFFF"&gt;&lt;br /&gt;&lt;table border="0" cellpadding="0" cellspacing="0" width="580" align="center" bgcolor="#FFFFFF" style="background: #FFFFFF"&gt;&lt;tr&gt;&lt;td&gt;&lt;img src="http://www.royalepromotions.ca/images/email/moment_with_royale_header_en.jpg" width="580" height="151" border="0" alt="Moment with Royale" /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br /&gt;&lt;table border="0" cellpadding="0" cellspacing="0" width="580"&gt;&lt;tr&gt;&lt;td&gt;&lt;img src="http://www.royalepromotions.ca/images/email/royale_table_top.jpg" width="580" height="21" border="0" alt=" " style="display: block;" /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="background: #f3f3f3;" align="center"&gt;&lt;table border="0" cellpadding="0" cellspacing="0" width="520"&gt;&lt;tr&gt;&lt;td valign="top" style="color: #8A8A8C; font-size: 15px; padding: 30px 0 0 0;"&gt;</value>
+  </data>
+  <data name="RoyaleSubjectLine" xml:space="preserve">
+    <value>Welcome from  ROYALE</value>
+  </data>
+  <data name="RoyaleUrl" xml:space="preserve">
+    <value>http://royalepromotions.ca/moment/</value>
+  </data>
+  <data name="ScottiesBody" xml:space="preserve">
+    <value>&lt;strong&gt;Thank you for becoming a member of the  Scotties Online Community.&lt;/strong&gt;
+&lt;br /&gt;&lt;br /&gt;
+You will soon begin receiving information, rewards and savings absolutely free. 
+&lt;br /&gt;&lt;br /&gt;
+Have you received this message in error?  To be removed from the Scotties Online Community just &lt;a href="[[ServerURL]]/Unsubscribe.aspx?email=[[uemail]]"&gt;click here&lt;/a&gt;.
+&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="ScottiesEmail" xml:space="preserve">
+    <value>LikeNoOther@scottiespromotions.com</value>
+  </data>
+  <data name="ScottiesFooter" xml:space="preserve">
+    <value>&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td align="center" bgcolor="white"&gt;&lt;br&gt;
+        &lt;table cellpadding="0" cellspacing="0" border="0" align="center" width="580" bgcolor="white"&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;td  align="left" bgcolor="white" style="padding-right:10px; font-family:Arial, Helvetica, sans-serif; font-size:11px;"&gt;This email was sent by: Irving Consumer Products&lt;br&gt;
+                100 Midland Drive, Dieppe, NB E1A 6X4, Canada&lt;/td&gt;
+              &lt;td align="right" bgcolor="white"&gt;
+                &lt;a href="http://www.facebook.com/ScottiesLikeNoOther" target="_blank"&gt;&lt;img height="24" width="24" src="http://scottiesfacial.com/uploadedImages/Emails/royale_facebook.jpg" alt="" border="0"&gt;&lt;/a&gt;
+              &lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/body&gt;</value>
+  </data>
+  <data name="ScottiesHeader" xml:space="preserve">
+    <value>&lt;body bgcolor="white" bottommargin="0" topmargin="0" leftmargin="0" rightmargin="0"&gt;&lt;br /&gt;
+&lt;table align="center" border="0" cellpadding="0" cellspacing="0" width="600" bgcolor="white"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td colspan="3" bgcolor="white"&gt;&lt;img src="http://scottiesfacial.com/uploadedImages/Emails/2012.04.20-scotties_heading.gif" width="600" height="146" border="0" alt="Scotties Grow The Community"&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td bgcolor="white"  style="font-size:14px; color:#58595b; font-weight:normal; padding:8px 20px 8px 20px; line-height:18px; text-align:left"&gt;</value>
+  </data>
+  <data name="ScottiesSubjectLine" xml:space="preserve">
+    <value>Welcome from Scotties</value>
+  </data>
+  <data name="ScottiesUrl" xml:space="preserve">
+    <value>http://scottiespromotions.com/</value>
+  </data>
+</root>

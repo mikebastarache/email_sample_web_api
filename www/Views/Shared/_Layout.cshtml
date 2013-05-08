@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    @RenderBody()
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+
+    <script type="text/javascript">
+     
+        function OnUpdate(lang, site) {
+            var jsonData = '{"Email":"mbastarache@modernmedia.ca","Language":"' + lang + '","SiteSource":"' + site + '"}';
+            
+            $.ajax({
+                type: 'POST',
+                crossDomain: true,
+                url: '/email/api/message/welcome/',
+                data: jsonData,
+                contentType: "application/json; charset=utf-8",
+                dataType: 'json',
+                success: function (result, textStatus) {
+                    console.log(result);
+                    alert(textStatus + " - sent email!");
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    alert(textStatus);
+                }
+
+            })
+        }
+
+        function OnUpdate2(lang, site) {
+            var jsonData = '{"Email":"mbastarache@modernmedia.ca","Language":"' + lang + '","SiteSource":"' + site + '","CustomSubjectLine":"Test Subject Line","CustomBody":"<h1>Test Body Copy</h1>"}';
+            
+            $.ajax({
+                type: 'POST',
+                crossDomain: true,
+                url: '/email/api/message/custom/',
+                data: jsonData,
+                contentType: "application/json; charset=utf-8",
+                dataType: 'json',
+                success: function (result, textStatus) {
+                    console.log(result);
+                    alert(textStatus + " - sent email!");
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    alert(textStatus);
+                }
+
+            })
+        }
+
+        function OnUpdate3(lang, site) {
+            var jsonData = '{"Email":"mbastarache@modernmedia.ca","Language":"' + lang + '","SiteSource":"' + site + '","CustomSubjectLine":"Javascript Test Subject Line","CustomBody":"<h1>Test Body Copy</h1>","CustomHeader":"<body bgcolor=yellow><h1>This is the header</h1>","CustomFooter":"<hr>thi sis the footer</body>"}';
+
+            $.ajax({
+                type: 'POST',
+                crossDomain: true,
+                url: '/email/api/message/custom/',
+                data: jsonData,
+                contentType: "application/json; charset=utf-8",
+                dataType: 'json',
+                success: function (result, textStatus) {
+                    console.log(result);
+                    alert(textStatus + " - sent email!");
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    alert(textStatus);
+                }
+
+            })
+        }
+
+        function GetBasicCall(evt) {
+            $.ajax({
+                type: 'GET',
+                crossDomain: true,
+                url: '/api/message/',
+                contentType: "application/json; charset=utf-8",
+                dataType: 'json',
+                success: function (result, textStatus) {
+                    console.log(result);
+                    alert(textStatus + " - GET Call was successful!");
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    alert(textStatus);
+                }
+
+            })
+        }
+       
+    </script>
+</body>
+</html>
